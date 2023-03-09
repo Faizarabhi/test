@@ -12,7 +12,9 @@
     "start": "next start",
     "lint": "next lint",
     "prettier": "prettier --write .",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "dependencies": {
     "@types/node": "18.14.6",
@@ -32,5 +34,8 @@
     "cross-env": "^7.0.3",
     "husky": "^8.0.3",
     "prettier": "^2.8.4"
+  },
+  "resolutions": {
+    "webpack": "^5"
   }
 }
